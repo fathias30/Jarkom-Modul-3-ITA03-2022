@@ -6,7 +6,7 @@
 3. Fatchia Farhan (5027201044)
 
 ## Deskripsi
-Laporan ini dibuat dengan tujuan untuk
+Laporan ini dibuat dengan tujuan untuk menjelaskan pengerjaan serta permasalahan yang kami alami dalam pengerjaan soal shift Jaringan Komunikasi modul 3 tahun 2022.
 
 ## Gambar Topologi
 Berikut merupakan gambar dari topologi yang sudah kami buat
@@ -132,6 +132,7 @@ INTERFACES=/"eth1 eth2 eth3/"
 
 ```
 dan tampilannya seperti gambar berikut:
+
 ![dhcp relay](https://user-images.githubusercontent.com/90241942/201454507-7c4c140a-be6b-46f1-bac9-edcce4aeb215.png)
 
 
