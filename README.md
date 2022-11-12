@@ -271,3 +271,6 @@ Untuk nomor 8 kami hanya dapat mengerjakan poin 1 yaitu untuk Client hanya dapat
 ```
 acl AVAILABLE_WORKING time MTWHF 08:00-17:00
 ```
+
+## Kendala
+Kami belum dapat mengerjakan soal nomor 8 secara maksimal
