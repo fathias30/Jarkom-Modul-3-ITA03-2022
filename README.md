@@ -19,6 +19,20 @@ Loid bersama Franky berencana membuat peta tersebut dengan kriteria WISE sebagai
 Ostania sebagai DHCP Relay
 
 ### Jawaban Nomor 2
+Pada Ostania kita menjalankan command sebagai berikut:
+```
+apt-get install isc-dhcp-server
+```
+Interface yang kami gunakan adalah `eth1 eth2 eth3`
+```
+echo "
+INTERFACES=/"eth1 eth2 eth3/"
+">/etc/default/isc-dhcp-relay
+
+```
+dan tampilannya seperti gambar berikut:
+![dhcp relay](https://user-images.githubusercontent.com/90241942/201454507-7c4c140a-be6b-46f1-bac9-edcce4aeb215.png)
+
 
 ## Nomor 3
 Client yang melalui Switch1 mendapatkan range IP dari [prefix IP].1.50 - [prefix IP].1.88 dan [prefix IP].1.120 - [prefix IP].1.155
